@@ -234,6 +234,9 @@
         margin-right: 0px;
         padding-right: 48px;
     }
+    .footer{
+        padding: 80px 32px;
+    }
 
     }
 
@@ -277,6 +280,17 @@
        width: 100%;
        max-width: 448px;
     }
+    .footer__bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot__socials{
+        margin-left: 0px;
+    }
+    .footer__copyright .foot__socials{
+        margin-top: 32px;
+
+    }
 }
 
 
@@ -313,6 +327,15 @@
     }
     .section__title{
         font-size: 32px;
+    }
+    .footer__columns{
+        justify-self: center;
+    }
+    .foot__column{
+        width: auto;
+        text-align: center;
+        align-items: center;
+        padding: 0px 16px;
     }
 }
 
@@ -670,4 +693,64 @@ img{
             display: block;
         }
 
-    }
+        /* Footer */
+        .footer{
+            background-color: rgb(100, 21, 255);
+            margin-bottom: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+        .footer__bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 32px 0px;
+            border-top: 1px solid rgb(229, 231, 235);
+        }
+        .footer__logo{
+            display: flex;
+            align-items: center;
+            }
+        .footer__logo--img{
+            height: 32px;
+            width: 32px;
+
+        }
+        .footer__logo--text{
+        font-size: 20px;
+        font-weight: 700;  
+        margin-left: 8px;
+        letter-spacing: 0.05em;
+        }
+
+        .footer__socials{
+            display: flex;
+            align-items: center;
+            margin-left: 32px;
+            
+        }
+        .row{
+            width: 100%;
+            max-width: 1280;
+            margin: 0 auto;
+        }
+        .footer__social--link{
+            margin-left: x;
+            padding: 8px;
+            background: #f7fafc;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            z-index: 2;
+            cursor: pointer;
+            transition: all 300ms ease;
+        }
+        .footer__columns{
+            margin-top: -48px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .a{
+            text-decoration: none;
+        }
