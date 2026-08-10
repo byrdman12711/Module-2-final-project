@@ -850,7 +850,7 @@ img{
         .start__title, .start__buttons{
             width: 50%;
         }
-        .start__button :nth-child(1){
+        .start__button:nth-child(1){
             box-shadow: rgb(0, 0, 0 ,0) 0px 0px 0px 0px, rgb(0, 0, 0 ,0) 0px 0px 0px 0px, rgb(0, 0, 0 ,0.1) 0px 10px 15px -3px,rgb(0, 0, 0, 0.05) 0px 4px 6px -2px;
             background-color: rgb(245, 101, 101);
             transition: 300ms;
