@@ -715,7 +715,31 @@ img{
     }
 
     /*Testimonials*/
+    .testimonial__button{
+        width: 16px;
+        height: 16px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: auto 16px;
+        background: #edf2f7;
+        border-radius: 50%;
+        margin: 0 ,12px;
+        transition: all 300ms ease;
 
+    }
+    .testimonial__buttons{
+        display: flex;
+        align-items: center;
+    }
+    .divider{
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+        border-right-width: 1px;
+        width: 0.5px;
+        background-color: #edf2f7;
+        height: 20px;
+    }
     #testimonials .row{
         margin-left: auto;
         margin-right: auto;
