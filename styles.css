@@ -1221,6 +1221,8 @@ img{
             z-index: 2;
             cursor: pointer;
             transition: all 300ms ease;
+            height: 16px;
+            width: 16px;
         }
         .footer__columns{
             margin-top: -48px;
