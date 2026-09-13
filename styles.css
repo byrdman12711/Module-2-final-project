@@ -101,23 +101,7 @@
         opacity: 0.5;
     }
 
-    .header__email--btn{
-        z-index: 2;
-        height: calc(100% - 16px);
-        width: 100%;
-        background-color: rgb(100, 21, 255);
-        color: rgb(255, 255, 255);
-        font-weight: 700;
-        font-size: 16px;
-        margin: 8px;
-        border-radius: 500px;
-        border-width: medium;
-        border-style: none;
-        border-color: currentColor;
-        border-image: initial;
-        transition: all 300ms ease;
-
-    }
+  
 
     .feature__row{
     display: flex;
@@ -161,7 +145,7 @@
     .header__email--btn{
         z-index: 2;
         height: calc(100% - 16px);
-        width: 100%;
+        width: 160px;
         background-color: rgb(100, 21, 255);
         color: rgb(255, 255, 255);
         font-weight: 700;
@@ -205,43 +189,43 @@
     .header__customers--title{
         margin-top: 48px;
     }
-
+    
     .header__description .header__img--wrapper{
-    width: 100%;
-    max-width: 500px;
-    margin: 0px auto;
+        width: 100%;
+        max-width: 500px;
+        margin: 0px auto;
     }
     
 
-
+    
     .h1{
-    font-size: 30px;
-
+        font-size: 30px;
+        
     }
 
     .header__description---para{
-    margin: 20px 0px;
+        margin: 20px 0px;
     }
-
+    
     #features .section__title #pricing .section__title{
-    font-size: 48px;
+        font-size: 48px;
     }
     .features{
-    max-width: 768px;
+        max-width: 768px;
     }
-
+    
     .feature{
-    width: calc(50%);
+        width: calc(50%);
     }
     .header__customers{
-    padding-right: 0px;
-
+        padding-right: 0px;
+        
     }
-
+    
     .section__para{
-    font-size: 14px;
+        font-size: 14px;
     }
-
+    
     .quality__discription{
         margin-right: 0px;
         padding-right: 48px;
@@ -251,18 +235,18 @@
     }
     .start__row{
         flex-direction:column;
-
+        
     }
     .start__title{
         text-align: center;
         width: 100%;
         max-width: 512px;
-
+        
     }
     .start__buttons{
         width: auto;
         margin-top: 24px;
-
+        
     }
     .start__button{
         padding: 16px 32px;
@@ -272,6 +256,10 @@
         padding-bottom: 5rem;
     }
     
+    #start .container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
     .values__list{
         max-width: 20rem;
         flex-direction: column;
@@ -292,10 +280,7 @@
     .header__description{
         width: 100%;
     }
-    .header__email{
-        flex-direction: column;
-        height: auto;
-    }
+   
 
     .header__img--wrapper{
         width: 100%;
@@ -377,17 +362,22 @@
     .container{
         padding: 80px 0;
     }
-
     .header__email--input{
-        position: static;
-        line-height: 1.5;
-        padding: 16px 0px;
-        padding-left: 32px;
-    }
+    position: static;
+    padding: 20px 32px;
+    position: static;
+}
     .header__email{
         flex-direction: column;
         height: auto;
     }
+    .header__email--btn{
+        height: auto;
+        margin: 16px 0px;
+        padding: 16px 32px;
+        width: 100%;
+    }
+    
     .testimonial__bottom{
         flex-direction: column;
         align-items: center;
@@ -409,7 +399,7 @@
         align-items: center;
         text-align: center;
     }
-  
+    
     .btn{
         line-height: 1.5;
     }
@@ -447,15 +437,14 @@
         font-size: 14px;
         padding: 12px 24px;
     }
-    .btn{
-        line-height: 1.5;
-    }
+  
     .container{
         padding: 80px 80px;
     }
-}   .start__container{
-    padding: 80px 0;
-}
+    .start__container{
+        padding: 80px 0;
+    }
+}  
 
 @media(max-width: 480px){
     .header__email--btn{
@@ -646,53 +635,7 @@ button{
 }
 /*Header*/
 
-.header__email--input {
-    width: 100%;
-    color: rgb(36, 62, 99);
-    font-size: 16px;
-    font-weight: 500px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    z-index: 1;
-    border-radius: 500px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(229, 231, 235);
-    border-image: initial;
-    padding: 20px 192px 20px 32px;
-    transition: border-color 300ms ease;
-    }
-    
-.header__email{
-    width: 100%;
-    max-width: 448px;
-    height: 68px;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 
-    }
-
-.header__email--btn{
-    z-index: 2;
-    height: calc(100% - 16px);
-    width: 160px;
-    background-color: rgb(100, 21, 255);
-    color: rgb(255, 255, 2550);
-    font-weight: 700;
-    font-size: 16px;
-    margin: 8px;
-    border-radius: 500px;
-    border-width: medium;
-    border-style: none;
-    border-color: currentColor;
-    border-image: initial;
-    transition: 300ms;
-
-
-    }
 .header__customers--title{
     color: rgb(160 , 174, 192);
     font-size: 12px;
@@ -1215,17 +1158,14 @@ img{
         .section {
             padding: 0px 32px;
         }
-        .container{
-         padding: 96px 0px;   
-        }
-   
+        
         #quality .row{
             display: flex;
             justify-content: space-between;
             align-items: center;
-
+            
         }
-      
+        
         .quality__description .quality__img--wrapper{
             width: 50%;
         }
@@ -1233,17 +1173,17 @@ img{
             max-width: 576px;
             margin-right: 64px;
         }
-
- /*START */
-
-
+        
+        /*START */
+        
+        
         
         
         #start .row{
             position: relative;
             overflow: hidden;
         }
-    
+        
         .start__blob--1{
             position:absolute;
             bottom: 0px;
@@ -1263,19 +1203,20 @@ img{
             transform: translate(-5rem, -16rem);
             color: rgb(80 17 204);
             opacity: 0.5;
-
-        }
             
-        #start .container{
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+        }
+        
+        .container{
+         padding: 96px 0px;   
         }
         .start__container{
+            padding:96px 0;
             width: 100%;
             background-color: rgb(100, 21, 255);
             display: flex;
             justify-content:center;
             border-radius: 8px;
+            align-items: center;
         }
         .start__row{
             width:100%;
