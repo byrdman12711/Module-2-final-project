@@ -907,10 +907,7 @@ img{
     border-top-right-radius: 0.5rem;
 
  }
-  .plan__stripe, .plan__button{
-    color:rgb(247, 250, 252);
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
- }
+  
  .plan__price{
     color: rgb(26, 32, 44);
     font-size: 36px;
