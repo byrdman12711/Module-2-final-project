@@ -81,6 +81,11 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .plan__bottom{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
         
 }
 
@@ -754,11 +759,13 @@ img{
 .plan:nth-child(2) .plan__button{
     background: #f7fafc;
     color:#6415ff;
+   
 }
 
 .plan:nth-child(2) {
    background-color: rgb(102, 126, 234);
    color:#f7fafc;
+   padding-bottom: 30px;
 }
 
 /*Testimonials*/
@@ -1191,10 +1198,45 @@ button{
     }
 }
 
-@media(max-width:1280px0){
+@media(max-width:1280px){
     .plan__button{
-        max-width:none
+        max-width:none;
+    
     }
+    
+    .steps__grid{
+        height: 5rem;
+        width: 5rem;
+        bottom: -50px;
+    }
+    
+    .h1{
+        color: rgb(26, 32, 44);
+        line-height: 1.25;
+    }
+    
+    .header__description---para{
+        font-size: 16px;
+    }
+    
+    .header .row{
+        align-items: flex-end;
+    }
+    .testimonials__img{
+        width: 40%;
+    }
+    
+    .testimonial__profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan__bottom{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+        
 }
 
 @media (max-width: 1024px){
