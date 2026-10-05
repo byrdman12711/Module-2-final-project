@@ -426,7 +426,7 @@ section{
 }
 #features, .section__para{
     text-align: center;
-    max-width: 575px;
+
 }
 
 /* VALUES */
@@ -1106,8 +1106,8 @@ section{
     display: flex;
     flex-direction: column;
     padding: 64px 32px 64px 32px;
-    
     z-index: 2;
+    
 }
 .footer__blob--2{
     position:absolute ;
@@ -1490,6 +1490,10 @@ section{
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
+            }
+            .feature__title{
+                letter-spacing: 0.025rem;
+                line-height: 1;
             }
             
             .btn{
