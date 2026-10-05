@@ -1267,7 +1267,7 @@ section{
                 margin: 20px 0px;
             }
             
-            #features, .section__title, #pricing{
+             .section__title, #pricing{
                 font-size: 48px;
             }
             .feature__title{
