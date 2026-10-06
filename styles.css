@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* nav bar */
 *{
     box-sizing: border-box;
@@ -431,14 +431,14 @@ section{
 }
 
 /* VALUES */
-
+.values__img, .values__description{
+    width: 50%;
+}
 .values__img .values__description .testimonial__img .testimonials__description{
         width: 50%;
 }
 
-.values__img, .values__description{
-    width: 50%;
-}
+
 #values .row{
     display: flex;
     justify-content: space-between;
@@ -470,12 +470,11 @@ section{
 .value__title{
     display: flex;
     align-items: center;
-    flex-direction: row;
     
 }
 
 .value__name{
-    margin-left: -24px;
+    margin-left: 12px;
     font-size: 20px;
     font-weight: bold;
     color: #243e63;
@@ -503,11 +502,6 @@ section{
     margin-top: 32px;
 }
 
-.value__img--wrapper{
-    width: 20px;
-    height: 20px;
-
-}
 
 .values__list{
     margin-left: 0px;
@@ -857,7 +851,16 @@ section{
     margin-right: 2px;
     margin-top: 4px;
 }    
-
+.fas, .fa-soild{
+    font-weight: 900;
+}
+.fas, .fa-star{
+    color: rgb(246, 173, 85);
+    display: inline;
+    height: 1.25rem;
+    width: 1.25rem;
+    font-variant: normal;
+}
 
 
 
