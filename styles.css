@@ -287,6 +287,7 @@ button{
 
 .steps__img{
     z-index: 2;
+    width: 100%;
 }
 
 #steps .row{
@@ -437,7 +438,6 @@ section{
 .values__img .values__description .testimonial__img .testimonials__description{
         width: 50%;
 }
-
 
 #values .row{
     display: flex;
