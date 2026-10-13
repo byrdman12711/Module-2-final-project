@@ -10,7 +10,7 @@
     .nav{
         padding-top: 32px;
         display: flex;
-        flex-direction: row;
+       
         
 }
 
@@ -48,12 +48,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-.body{
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
 
 
 .header__img{
@@ -143,10 +137,9 @@
     transition: all 300ms;
     
 }
-@media (max-width: 1024px){
-    .nav__links{
-        display: none;
-    }
+.body{
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 .purple{
@@ -166,13 +159,13 @@
     transition: all 300ms ease;
 }
 
-.a{
+a{
     display: inline;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .p{
-    line-height: 1.5;;
+    line-height: 1.5;
 }
 
 /* btn__menu*/
@@ -230,12 +223,21 @@ button{
  display: flex;
  flex-direction: column;
  align-items: center;
+ 
 }
 
-.menu--open .menu{
+.menu--open, .menu{
     visibility: visible;
     opacity: 1;
     transform: translateX(0);
+}
+.menu__link--primary{
+    color: #f7fafc;
+    padding: 12px 32px;
+    background-color: #6415ff;
+    border-radius: 500px;
+    border: none;
+    text-decoration: none;
 }
 /* header */
 
@@ -356,10 +358,11 @@ button{
 .header__customers{
     margin-top: 16px;
     opacity: 0.5;
+    padding-right: 128px;
 }
 
-img{
-    width: 50%;
+.img{
+    width: 100%;
 }
 
 /* Features */
@@ -605,7 +608,7 @@ section{
     color: rgb(26, 32, 44);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     border-radius: 0.5rem;
-    padding: 30px;
+  
     
 }
 
@@ -639,7 +642,7 @@ section{
     margin: 4px 0px;
 }
 
-.plan__name .plan__price .plan__duration{
+.plan__name, .plan__price, .plan__duration{
     font-weight: bold;
     line-height: 1.625;
 }
@@ -650,12 +653,12 @@ section{
      letter-spacing: 0.1em;
 }
     
-.plan:nth-child(1) .plan__middle .plan:nth-child(3){
+.plan:nth-child(1), .plan__middle, .plan:nth-child(3){
     border-top: 2px solid rgb(229, 231, 235);
     border-bottom: 2px solid rgb(229, 231, 235);
     
 }
-.plan .plan:nth-child(2n+1) .plan__target{
+.plan, .plan:nth-child(2n+1), .plan__target{
     color: rgb(26, 32, 44);
 }
 
@@ -690,7 +693,6 @@ section{
 }
 
 .plan:first-child .plan__feature, .plan:last-child .plan__feature,
-.plan:first-child .plan__duration, .plan:last-child .plan__duration,
 .plan:first-child .plan__middle, .plan:last-child  .plan__middle,
 .plan:first-child .plan__price, .plan:last-child   .plan__price,
 .plan:first-child .plan__name, .plan:last-child   .plan__name,
@@ -743,7 +745,6 @@ section{
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 0.75rem 2rem;
-    padding-bottom: 2rem;
     padding-top: 1rem;
 }
    
@@ -786,7 +787,7 @@ section{
     button{
     cursor: pointer;
     border:none;
-    height: 52%;
+   
 }
 
 
@@ -1232,7 +1233,9 @@ section{
         color: rgb(26, 32, 44);
         line-height: 1.25;
     }
-    
+    .header__customers{
+        padding-right: 64px;
+    }    
     .header__description---para{
         font-size: 16px;
     }
@@ -1293,6 +1296,9 @@ section{
                 margin: 0px auto;
             }
             
+            .nav__links{
+                 display: none;
+            }
         
             
             .h1{
@@ -1341,7 +1347,7 @@ section{
                 padding: 80px 32px;
             }
             .start__row{
-                flex-direction:column;
+                flex-direction: column;
                 
             }
             .start__title{
@@ -1407,7 +1413,7 @@ section{
             .header__description{
                 width: 100%;
             }
-            #quality, .row, #values{
+            #quality, #values{
                 flex-direction: column-reverse;
             }
         
