@@ -910,6 +910,9 @@ section{
 
 .quality__img{  
     z-index: 1;
+
+}
+img{
     width: 100%;
 }
 .quality__img--wrapper{
@@ -1417,7 +1420,7 @@ section{
             .header__description{
                 width: 100%;
             }
-            #quality, #values{
+            #quality .row, #values .row{
                 flex-direction: column-reverse;
             }
         
